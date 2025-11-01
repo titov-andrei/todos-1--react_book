@@ -35,7 +35,7 @@ export default function App() {
       </nav>
       <main className="content px-6 py-6">
         <TodoList list={todos} setDone={setDone} del={del} />
-        <ТodoAdd add={add} />
+        <TodoAdd add={add} />
       </main>
     </div>
   )
